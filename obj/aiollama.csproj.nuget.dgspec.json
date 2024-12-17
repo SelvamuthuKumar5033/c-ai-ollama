@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\selvamuthukumar\\aiollama\\aiollama.csproj": {}
+  },
+  "projects": {
+    "D:\\selvamuthukumar\\aiollama\\aiollama.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\selvamuthukumar\\aiollama\\aiollama.csproj",
+        "projectName": "aiollama",
+        "projectPath": "D:\\selvamuthukumar\\aiollama\\aiollama.csproj",
+        "packagesPath": "C:\\Users\\selvamuthukumar.s\\.nuget\\packages\\",
+        "outputPath": "D:\\selvamuthukumar\\aiollama\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\selvamuthukumar.s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.25.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Ollama": {
+              "target": "Package",
+              "version": "[1.25.0-alpha, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
